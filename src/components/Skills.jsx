@@ -92,7 +92,7 @@ function Skills() {
     },
     {
       name: "Adobe XD",
-      level: 90,
+      level: 0,
       icon: <SiAdobexd className="icon-xd" />
     },
     {
@@ -102,12 +102,12 @@ function Skills() {
     },
     {
       name: "Premiere Pro",
-      level: 75,
+      level: 0,
       icon: <SiAdobepremierepro className="icon-premiere" />
     },
     {
       name: "After Effects",
-      level: 70,
+      level: 0,
       icon: <SiAdobeaftereffects className="icon-aftereffects" />
     },
     {
@@ -117,7 +117,7 @@ function Skills() {
     },
     {
       name: "Adobe CC",
-      level: 85,
+      level: 0,
       icon: <SiAdobexd className="icon-adobe" />
     }
   ]

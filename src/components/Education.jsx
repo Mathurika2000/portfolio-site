@@ -51,7 +51,7 @@ function Education() {
       description: "Currently studying Computer Science & Mathematics, with a focus on advanced research and applications.",
       achievements: [
         "Research Project: Enhancing Railway Safety using Computer Vision and Cloud-Based Technologies",
-        "GPA: 2.9"
+        "GPA: 2.5"
       ]
     }
   ];
