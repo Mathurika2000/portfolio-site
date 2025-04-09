@@ -78,7 +78,7 @@ function About() {
             </div>
 
             <div className="cv-download-container">
-              <a href="/Mathurika.pdf" download="/Mathurika.pdf">
+              <a href="/Mathurika1.pdf" download="/Mathurika1.pdf">
                 <Button variant="danger" className="download-cv-btn">
                   Download CV <FaDownload style={{ marginLeft: "8px" }} />
                 </Button>
