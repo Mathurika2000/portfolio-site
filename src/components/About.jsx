@@ -76,14 +76,24 @@ function About() {
               </a>
 
             </div>
-
             <div className="cv-download-container">
-              <a href="/resume.pdf" download>
-                <Button variant="danger" className="download-cv-btn">
-                  Download CV <FaDownload style={{ marginLeft: "8px" }} />
-                </Button>
-              </a>
-            </div>
+  <a
+    href="/resume.pdf"
+    download
+    className="download-cv-btn"
+    style={{
+      display: "inline-block",
+      backgroundColor: "#dc3545", // Bootstrap 'danger' red
+      color: "#fff",
+      padding: "10px 16px",
+      borderRadius: "4px",
+      textDecoration: "none",
+    }}
+  >
+    Download CV <FaDownload style={{ marginLeft: "8px" }} />
+  </a>
+</div>
+
 
           </Col>
           <Col lg={6} className="about-image-container">
