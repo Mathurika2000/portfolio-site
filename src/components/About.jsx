@@ -62,27 +62,28 @@ function About() {
             </p>
 
             <div className="social-icons-container">
-              <a href="https://www.facebook.com/share/1A1jkLvpBo/" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FaFacebookF />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FaTwitter />
-              </a>
               <a href="https://www.linkedin.com/in/mathurika-jesuthas-4450aa296/" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FaLinkedinIn />
               </a>
               <a href="https://github.com/Mathurika2000" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FaGithub />
               </a>
+              <a href="https://www.facebook.com/share/1A1jkLvpBo/" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <FaFacebookF />
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+                <FaTwitter />
+              </a>
+
             </div>
 
             <div className="cv-download-container">
-                <a href="/Mathurika.pdf" download="/Mathurika.pdf">
-                  <Button variant="danger" className="download-cv-btn">
-                    Download CV <FaDownload style={{ marginLeft: "8px" }} />
-                  </Button>
-                </a>
-              </div>
+              <a href="/Mathurika.pdf" download="/Mathurika.pdf">
+                <Button variant="danger" className="download-cv-btn">
+                  Download CV <FaDownload style={{ marginLeft: "8px" }} />
+                </Button>
+              </a>
+            </div>
           </Col>
           <Col lg={6} className="about-image-container">
             <img
