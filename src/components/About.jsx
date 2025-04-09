@@ -78,7 +78,7 @@ function About() {
             </div>
             <div className="cv-download-container">
   <a
-    href="/resume.pdf"
+    href="resume.pdf"
     download
     className="download-cv-btn"
     style={{
